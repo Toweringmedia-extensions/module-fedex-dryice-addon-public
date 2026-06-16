@@ -1,0 +1,20 @@
+{
+  "name": "toweringmedia/module-fedex-dryice-addon",
+  "description": "Ship frozen or pharmaceutical products with FedEx-compliant dry ice automation. Transmit UN1845 classifications, weight, and package counts via the FedEx REST API. Assign dry ice quantities per package to stay within carrier limits. Prompt shippers for required consignee and packaging declarations. Produce labels and documents that satisfy FedEx cold-chain regulations. Fully compatible with Magento 2.4.x Open Source and Adobe Commerce.",
+  "type": "magento2-module",
+  "homepage": "https://toweringmedia.com/toweringmedia-fedex-dry-ice",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": ">=103.0"
+  },
+  "support": {
+    "docs": "https://toweringmedia.com/toweringmedia-fedex-dry-ice",
+    "source": "https://github.com/Toweringmedia-extensions/module-fedex-dryice-addon"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
